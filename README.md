@@ -32,7 +32,7 @@ download java JDK: https://www.oracle.com/java/technologies/downloads
 2. Main.java is the entry of all execution topics and you have to uncomment each 'class.method()' in the public static void main() method in order to get the result in the console.
    but the explication of each topic is defined in its own class declaration file
    Ex: in the src Directory you will find a Main.java -> in this class you will find a public static void main() method -> in this Method you will find a commented line -> //DataTypes.primitiveDataTypes();
-       so you should uncomment this line of code and run your code. To see the source code for this class go back to the src directory and search for DataTypes.class then the static method primitiveDataTypes.
+       so you should uncomment this line of code and run your code. To see the source code for this class go back to the src directory and search for DataTypes.java then the static method primitiveDataTypes.
        now you can start modifying each variable value and run the code again to see the result after your modification.
    
 4. Refer to the "Resources" section for additional learning materials.

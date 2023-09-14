@@ -10,6 +10,12 @@ This repository includes:
   <li>Resources: Helpful links, recommended books, and online courses to further your Java knowledge.</li>
 </ul>
 <h3>Table of Contents</h3>
+<ul>
+  <il>Getting Started</il><br />
+  <il>Code Samples</il><br />
+  <il>Resources</il><br />
+  <li>License</li>
+</ul>
 
 <h3>Getting Started with HelloJava and MainClass</h3>
 

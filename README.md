@@ -13,9 +13,7 @@ This repository includes:
 <ul>
   <il>Getting Started</il>
   <il>Code Samples</il>
-  <il>Code Samples</il>
   <il>Resources</il>
-  <li>Contributing</li>
   <li>License</li>
 </ul>
 <h3>Getting Started with HelloJava and MainClass</h3>

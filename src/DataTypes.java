@@ -149,6 +149,54 @@ public class DataTypes {
              ) {
             System.out.print(i);
         }
+        System.out.println();
+        // Similarly, you can declare arrays of other types:
+
+        byte[] anArrayOfBytes;
+        short[] anArrayOfShorts;
+        long[] anArrayOfLongs;
+        float[] anArrayOfFloats;
+        double[] anArrayOfDoubles;
+        boolean[] anArrayOfBooleans;
+        char[] anArrayOfChars;
+        String[] anArrayOfStrings;
+        anArrayOfStrings = new String[2];
+        anArrayOfStrings[0] = "Dev";
+        anArrayOfStrings[1] = "Boss";
+        System.out.println(anArrayOfStrings[0] +" "+ anArrayOfStrings[1]);
+
+        // You can also place the brackets after the array's name:
+        // this form is discouraged
+        float ArrayOfFloats[];
+
+        // Alternatively, you can use the shortcut syntax to create and initialize an array:
+
+        String[] countries = { "Morocco","United States","Egypte","Canada"};
+        // So Here the length of the array is determined by
+        // the number of values provided between braces and separated by commas.
+
+        /**
+         *
+         * In the Java programming language,
+         * a multidimensional array is an array whose components are themselves arrays.
+         * This is unlike arrays in C or Fortran.
+         * A consequence of this is that the rows are allowed to vary in length,
+         * shown in the following MultiDimArrayDemo program:
+         */
+        // this exemples is form the docs provided from oracle
+        // find out more in tis link: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+        String[][] names = {
+                {"Mr. ", "Mrs. ", "Ms. "},
+                {"Smith", "Jones"}
+        };
+        // Mr. Smith
+        System.out.println(names[0][0] + names[1][0]);
+        // Ms. Jones
+        System.out.println(names[0][2] + names[1][1]);
+
+
+
+
 
 
 

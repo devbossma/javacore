@@ -1,5 +1,7 @@
 public class DataTypes {
     public static void primitiveDataTypes() {
+        System.out.println("**** Premetive Data Types ****");
+
         // ----------------- data types in java -----------------
         // link to this resources: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
@@ -93,6 +95,63 @@ public class DataTypes {
         char char16bit; //Default Value = '\u0000'
         char16bit = 'Y';
         System.out.println("char value: " + char16bit);
+
+
+    }
+    public static void nonPremitiveData(){
+        // Non-Premetive Data variables:
+        System.out.println("**** Non-Premetive Data Types ****");
+        // 1. String
+        System.out.println("-- String Type --");
+        //1.1 Definition:
+            /*
+            * a string is an object that represents a number of character values.
+            * Each letter in the string is a separate character value that makes up the Java string object.
+            * */
+        // 1.2 Syntax:
+
+        //  'String' + 'Variable_name' + '=' + '"The value"'
+
+        String name = "yassine";
+        // Or
+        String name2 = new String("DevBoss");
+        System.out.println(name + " " + name2);
+
+        // 2. Arrays
+        System.out.println("-- Array Type --");
+        // 2.1 Definition:
+
+        /*
+        * An array is a container object that holds a fixed number of values of a single type.
+        * The length of an array is established when the array is created. After creation, its length is fixed.
+        * */
+
+        // 2.2 Syntax:
+        // Step 1: declares an array of char
+        char[] myArray;
+
+        // Step2: allocates memory for 7 characters
+        myArray = new char[7];
+
+        // Step3: initialize the Array's  elements
+        myArray[0] = 'D';
+        myArray[1] = 'e';
+        myArray[2] = 'v';
+        myArray[3] = 'B';
+        myArray[4] = 'o';
+        myArray[5] = 's';
+        myArray[6] = 's';
+
+        // this way you can find out what class type of your variable
+        System.out.println( myArray.getClass()); // result wil be like : ' class [C ' in tis case Or like  ' class [I ' if you declare an array of int.
+        // iterating into a myArray for printing those elements one by one:
+        for (char i:myArray
+             ) {
+            System.out.print(i);
+        }
+
+
+
 
 
     }

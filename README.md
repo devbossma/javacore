@@ -21,7 +21,7 @@ This repository includes:
 
 <h4>If you're new to Java, follow these steps to get started:</h4>
 NB: <p>- Before starting this new coding experience, you must refer to the official Oracle website for the complete installation of Java JDK.
-       - Also you have to have an IDE of your choice. I suggest Eclipse for this language.</p>
+       - Also you have to have an IDE of your choice. I used for this reposetory <b> <u>IntelliJ IDEA Educational Edition</u>  version: 2022.2.2</b>  for this language.</p>
 download java JDK: https://www.oracle.com/java/technologies/downloads
 
     

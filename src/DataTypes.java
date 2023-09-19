@@ -195,6 +195,37 @@ public class DataTypes {
         System.out.println(names[0][2] + names[1][1]);
 
 
+        //***************** copying Arrays ***************//
+        /*
+        * The System class has an arraycopy method that you can use to efficiently copy data from one array into another:
+        *** syntax:
+        * public static void arraycopy(Object src, int srcPos,
+                             Object dest, int destPos, int length)
+        **** where ***
+        * Object src    =>  array to copy from
+        * int srcPos    =>  starting position in the source array
+        * Object dest   =>  array to copy to
+        * int destPos   =>  starting position in the destination array
+        * int length    =>  number of array source element to copy
+        * */
+        int firstarray[] = {1,2,3,4,5,6,7,8,9};
+        int secondarray[] = new int[7];
+        System.arraycopy(firstarray, 2, secondarray, 0, 5);
+        for (int elemnet:secondarray
+             ) {
+            System.out.print(elemnet);
+        }
+        /**
+         * * if te lengt of the array to copy to is greater then the numeber of element copyed
+         * the rest of the elemnts in array destination will be filled by
+         * the default values of the data type assined to tis array
+         * * if less will throw an ArrayIndexOutOfBounds Exception
+         */
+
+
+
+
+
 
 
 

@@ -144,7 +144,7 @@ public class DataTypes {
 
         // this way you can find out what class type of your variable
         System.out.println( myArray.getClass()); // result wil be like : ' class [C ' in tis case Or like  ' class [I ' if you declare an array of int.
-        // iterating into a myArray for printing those elements one by one:
+        // iterating through  myArray for printing those elements one by one:
         for (char i:myArray
              ) {
             System.out.print(i);

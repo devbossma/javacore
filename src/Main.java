@@ -3,6 +3,8 @@ public class Main {
         System.out.println("Hello java!!");
          DataTypes.primitiveDataTypes();
          DataTypes.nonPremitiveData();
+         OutputAndInputInJava.input();
+         OutputAndInputInJava.input();
     }
 
 }

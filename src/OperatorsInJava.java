@@ -6,6 +6,7 @@ public class OperatorsInJava {
 
     /*
     * Types of Java Operators:
+    * Resource link: https://www.mygreatlearning.com/blog/java-operators/
     * 1. Unary Operators
     * 2. Arithmetic Operators
     * 3. Assignment Operators
@@ -80,6 +81,59 @@ public class OperatorsInJava {
         System.out.println ( a % b ); // (%) ( Modulus ) Is Used to divide the left hand operator with right hand operator.
 
 
+    }
+    public static void assignmentOperator(){
+        /*
+        * Description:  Assignment operator are used to assign new value
+        *               to a variable.
+         */
+
+        int a = 20;
+        int b = 10;
+        int c;
+        System.out.println ( c = a ); // The operator (=)  is used to assign the value on the right to the operand on the left.
+        System.out.println ( b += a ); // The operator (+=) is used to add right operand to the left operand and assigns the result to the left operand.
+        System.out.println ( b -= a); // The operator (-=) is used to subtract right operand from the left operand and assigns the result to the left operand.
+        System.out.println ( b *= a ); // The operator (*=) is used to multiply right operand with the left operand and assigns the result to the left operand.
+        System.out.println ( b /= a ); // The operator (/=) is used to divides left operand with the right operand and assigns the result to the left operand.
+        System.out.println ( b ^= a ); // The operator (^=) is used to performs exponential calculation on operators and assigns value to the left operand
+        System.out.println ( b %= a ); // The operator (%=) is used to divide the left-hand operator with right hand operator and assigns the result to left operand.
+    }
+    public static void logicalOperator(){
+        /*
+        * Definition:
+        *           Logical operators are used to combining two or more conditions or
+        *           complement the evaluation of the original condition under consideration.
+        * */
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+        boolean d = false;
+        /*******************************  && (Logical AND) ************************************/
+        // (&&) This operator returns True if both the operands are true, otherwise, it returns False.
+        System.out.print("is (a && b)? =>  ");
+        System.out.println ( a  &&  b ); // false cause (b) is false.
+
+
+        System.out.print("is (a && c)? =>  ");
+        System.out.println ( a  &&  c ); // true cause (c) is also true.
+
+        /****************************** || (Logical OR) **************************************/
+        // (||) This operator returns True if either the operands are true, otherwise it returns False.
+        System.out.print("is (a || b)? =>  ");
+        System.out.println ( a || b ); // true cause (a) is true
+
+        /********************************************************************/
+        System.out.print("is (b || d)? =>  ");
+        System.out.println(b || d); // false cause ( b and d ) are both false
+
+        /******************************  ! (Logical NOT ) **************************************/
+        // (!) This operator reverses the logical state of an operand.
+
+        System.out.println(!a);
+        System.out.println(!b);
+        System.out.println ( ! ( a  &&  b ));
+        System.out.println ( ! ( a  ||  b ));
     }
 
 

@@ -5,6 +5,10 @@ public class Main {
          DataTypes.nonPremitiveData();
          OutputAndInputInJava.input();
          OutputAndInputInJava.input();
+         OperatorsInJava.assignmentOperator();
+         OperatorsInJava.arithmeticOperator();
+         OperatorsInJava.unaryOperator();
+         OperatorsInJava.logicalOperator();
     }
 
 }

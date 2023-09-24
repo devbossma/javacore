@@ -10,6 +10,7 @@ public class Main {
         OperatorsInJava.unaryOperator();
         OperatorsInJava.logicalOperator();
         OperatorsInJava.shiftOperator();
+        OperatorsInJava.bitwiseOperator();
 
     }
 

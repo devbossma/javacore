@@ -212,6 +212,79 @@ public class OperatorsInJava {
 
 
     }
+    public static void bitwiseOperator(){
+        /*
+        * Definition:
+        *       A bitwise operator in Java is a symbol/notation that performs a specified operation on standalone bits,
+        *  taken one at a time. It is used to manipulate individual bits of a binary number,
+        *  and can be used with a variety of integer types – char, int, long, short, byte.
+        * */
+        int a = 23; // 10111
+        int b = 21; // 10101
+
+        String binary_a = Integer.toBinaryString(a);
+        String binary_b = Integer.toBinaryString(b);
+        System.out.printf("***************************\n|\tint: %s Binary: %s   |\n***************************\n", a, binary_a);
+        System.out.printf("***************************\n|\tint: %s Binary: %s   |\n***************************\n", b, binary_b);
+
+
+        /***************************** & (Bitwise AND) *************************/
+        // This operator takes two numbers as operands and does AND on every  bit of two numbers.
+        // EX  : 1 & 1 = 1
+        // but : 1 & 0 = 0 or 0 & 0 = 0
+        // like: (true and true) is true
+        // but:  (true and false) is false.
+
+        // SO:
+
+        // 23   => 10111
+        // &    => &&&&&
+        // 21   => 10101
+        //         -----
+        //result=> 10101 => 21
+        System.out.println("******** & (Bitwise AND) ********");
+        System.out.println ( a&b );
+
+        /***************************** | (Bitwise OR) *************************/
+        // This operator takes two numbers as operands and does OR on every  bit of two numbers.
+        // EX  : 1 | 1 = 1 or 1 | 0 = 0
+        // but : 0 | 0 = 0
+        // like: (true or true) is true or (true or false) is also true.
+        // but:  (false and false) is  always false.
+
+        // SO:
+
+        // 23   => 10111
+        // |    => |||||
+        // 21   => 10101
+        //         -----
+        //result=> 10111 => 23
+        System.out.println("******** | (Bitwise OR) ********");
+        System.out.println ( a|b );
+
+        /***************************** ^ (Bitwise XOR) *************************/
+        // This operator takes two numbers as operands and does XOR on every  bit of two numbers.
+
+
+        // 23   => 10111
+        // ^    => ^^^^^
+        // 21   => 10101
+        //         -----
+        //result=> 00010 => 10 (In Binary) => 2 (In decimal)
+        System.out.println("******** ^ (Bitwise XOR) ********");
+        System.out.println ( a^b );
+
+
+        /***************************** ~ (Bitwise NOT) *************************/
+        // This operator takes one number as an operand and does invert all bits of that number.
+        int d = 5;
+        // 5   =>  0101
+        //         -----
+        //result=>  1010 => = 10 (In decimal) but the Compiler will give the second complement of that number,
+        //                                     the second complement of 10 will be -6.
+        System.out.println("******** ~ (Bitwise NOT) ********");
+        System.out.println ( ~d );
+    }
 
 
 }

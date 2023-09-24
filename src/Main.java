@@ -11,6 +11,9 @@ public class Main {
         OperatorsInJava.logicalOperator();
         OperatorsInJava.shiftOperator();
         OperatorsInJava.bitwiseOperator();
+        OperatorsInJava.ternaryOperator();
+        OperatorsInJava.relationalOperator();
+
 
     }
 

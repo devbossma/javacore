@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class OperatorsInJava {
     /*
     * Operators are special symbols that perform specific operations on:
@@ -284,6 +286,80 @@ public class OperatorsInJava {
         //                                     the second complement of 10 will be -6.
         System.out.println("******** ~ (Bitwise NOT) ********");
         System.out.println ( ~d );
+    }
+    public static void ternaryOperator(){
+        /*
+        * Description:
+        *       Ternary operator is a conditional operator,
+        *       it reduces the line of code while performing the conditional or comparisons.
+        *       It is the replacement of if-else or nested if-else statements.
+        *       It is also referred to as inline if, conditional operator, or ternary if.
+        *       (we will discuss more about conditional statements topic later on)
+        * */
+
+        // Syntax : ( Condition ) ? ( Statement1 ) : ( Statement2 );
+
+        /*
+        * so this syntax: if(condition) {
+        *                    do Statement1;
+        *                  }else {
+        *                    do Statement2
+        *                  }
+        *
+        *
+        * Becomes        : ( Condition ) ? ( Statement1 ) : ( Statement2 );
+        *
+        * */
+        // Exercise and Implementation:
+        /*
+        *so let's make a greeting program that greets a user by his gender and name:
+        * if the user's gender is male the program will say       => "Welcome Mr. user_name"
+        * and if the user's gender is female the program will say => "Welcome, Ms. user_name"
+        * */
+        String user_name;
+        String gender;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print(" Hello! what's your name?: ");
+        user_name = input.next();
+        System.out.print("'male' Or 'female': ");
+        gender = input.next();
+        String greeting_male = "Welcome, Mr. ";
+        String greeting_female= "Welcome, Ms. ";
+        System.out.println(gender);
+        String greeting_message = (gender.equals("male")) ? greeting_male : greeting_female;
+
+        System.out.printf(greeting_message + user_name);
+
+
+
+    }
+    public static void relationalOperator(){
+        /*
+        * Description:
+        *   Relational operators compares two numbers and returns a boolean value.
+        *   Those operators are used to define a relation or test between two operands.
+        * */
+        int  a = 100;
+        int  b = 200;
+
+        /***************  < (Less than) ********************************/
+        System.out.println ( a < b );
+
+        /***************  > (Greater than) ******************************/
+        System.out.println(  a > b );
+
+        /***************  <= (Less than or equal to) ********************/
+        System.out.println ( a <= b );
+
+        /***************  >= (Greater than or equal to) ******************/
+        System.out.println (a >= b );
+
+        /***************  == (Equal to) **********************************/
+        System.out.println ( a == b );
+
+        /***************  != (Not equal to) ******************************/
+        System.out.println ( a != b );
     }
 
 

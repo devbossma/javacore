@@ -165,6 +165,115 @@ public class StringManipulation {
         message = String.format("This Email '%s' is %b.", email_5, email_5.matches(regular_expression));
         System.out.println(message);
 
+        //8. trim() method:
+        System.out.println("**********************  trim() method **********************");
+        /*
+        * Definition:   This method in Java String is a built-in function that eliminates leading and trailing spaces.
+        * The Unicode value of space character is '\u0020'.
+        * The trim() method in java checks this Unicode value before and after the string,
+        * if it exists then removes the spaces and returns the omitted string.
+        *
+        * */
+        String original  = "     Hello, Trim methode!    ";
+        System.out.printf("'%s' original sting.",original );
+        System.out.print("\n");
+        System.out.printf("'%s' with trim method",original.trim());
+        System.out.print("\n");
+
+        //9. lenght() method:
+        System.out.println("**********************  length() method **********************");
+        /* Definition: The Java String class contains a length() method that returns
+        *   the total number of characters a given String contains.
+        *   This value includes all blanks, spaces,
+        *   and other special characters. Every character in the String is counted.
+        *   so let's use it with the previous example.
+        */
+        System.out.printf("originl string, contains %d character.\n", original.length());
+        System.out.printf("trimed string, contains %d character.\n",original.trim().length());
+
+        // 10. split() method:
+        System.out.println("**********************  split() method **********************");
+        /*
+        * Definition: The split() in Java is a method defined under the String class which
+        * is used to break a string around the matches of the provided regular expression.
+        * and it retins an array.
+        * The split() in Java is used to break a string based on the provided string delimiter.
+        * The string delimiters are mostly comma (','), and full stops ('.') or spaces (" ").
+        *
+        * */
+
+        String str = "Java is so awesome";
+        String[] parts = str.split(" "); // ["Java", "is", "so", "awesome"]
+        System.out.println(str);
+        for (String part:parts
+             ) {
+            System.out.println(part);
+
+        }
+
+        // 11. contains() method:
+        System.out.println("**********************  contains() method **********************");
+
+        /*
+        * Definition: Use the contains() method to check if a string contains a specific substring.
+        * and return a boolean type.
+        * !!! (case sensitive) !!!!!
+        * */
+        String serchebal = "Hello World";
+        System.out.println(serchebal.contains("World")); // true
+        System.out.println(serchebal.contains("world")); // false
+
+        //12. replace() & replaceAll() methods:
+        System.out.println("**********************  replace() and replaceALL() methods **********************");
+        /*
+        * Defintion: Use the replace() or replaceAll()
+        * methods to replace occurrences of a substring with another string.
+        * */
+        String str_1  = "Hello World!";
+        System.out.println(str_1.replace("World", "Universe"));// Hello Universe!
+        System.out.println(str_1.replaceAll(str_1,"Hi!"));// Hi!
+
+        //13. campareTO() method:
+        System.out.println("**********************  compareTO() method **********************");
+
+        /*
+        * Definition and Usage
+        * The compareTo() method compares two strings lexicographically.
+        * The comparison is based on the Unicode value of each character in the strings.
+        * The method returns 0 if the string is equal to the other string.
+        * */
+        String str1 = "FC barçelon";
+        String str2 = "FC barcelon";
+        int result = str1.compareTo(str2);
+        System.out.println(result);// 132
+
+        if (result < 0) {
+            // str1 is less than str2
+        } else if (result > 0) {
+            // str1 is greater than str2
+        } else {
+            // str1 is equal to str2
+        }
+
+        //14. valueOf() or toString() methods:
+        System.out.println("**********************  valueOf() or toString() methods **********************");
+        /*
+        * Defintion: Use the valueOf() or toString() methods to convert other data types to strings.
+        * */
+        int number = 42;
+        double doubleNumber = 123.156;
+        String strNumber1 = String.valueOf(number); // "42"
+        String strDoubleNumber = String.valueOf(doubleNumber);// 123.156
+        System.out.println(strNumber1);
+        System.out.println(strDoubleNumber);
+
+        // Alternatively
+        String strNumber2 = Integer.toString(number); // "42"
+        String strDoubleNumber2 = Double.toString(doubleNumber);// 123.156
+
+
+
+
 
 
 

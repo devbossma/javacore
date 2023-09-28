@@ -21,12 +21,12 @@ public class Main {
         //StringManipulation.stringComparison();
 
 
-        ArrayManipulation.arraySort1();
-        ArrayManipulation.arraySort2();
-        ArrayManipulation.arraySort3();
-        ArrayManipulation.arraySort4();
+        //ArrayManipulation.arraySort1();
+        //ArrayManipulation.arraySort2();
+        //ArrayManipulation.arraySort3();
+        //ArrayManipulation.arraySort4();
 
-        ArrayManipulation.binarySearch();
+        //ArrayManipulation.binarySearch();
 
 
 

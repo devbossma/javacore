@@ -19,6 +19,23 @@ public class Main {
 
         //StringManipulation.stringConcatenation();
         //StringManipulation.stringComparison();
+
+
+        //ArrayManipulation.arraySort1();
+        //ArrayManipulation.arraySort2();
+        //ArrayManipulation.arraySort3();
+        //ArrayManipulation.arraySort4();
+
+        ArrayManipulation.binarySearch();
+
+
+
+
+
+
+
+
+
     }
 
 }

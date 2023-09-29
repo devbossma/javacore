@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello java!!");
@@ -21,13 +23,15 @@ public class Main {
         //StringManipulation.stringComparison();
 
 
-        ArrayManipulation.arraySort1();
-        ArrayManipulation.arraySort2();
-        ArrayManipulation.arraySort3();
-        ArrayManipulation.arraySort4();
+        //ArrayManipulation.arraySort1();
+        //ArrayManipulation.arraySort2();
+        //ArrayManipulation.arraySort3();
+        //ArrayManipulation.arraySort4();
 
-        ArrayManipulation.binarySearch();
-
+        //ArrayManipulation.binarySearch();
+        ArrayManipulation.equals();
+        ArrayManipulation.fill();
+        ArrayManipulation.ArrayHashCode();
 
 
 

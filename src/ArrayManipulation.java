@@ -158,6 +158,103 @@ public class ArrayManipulation {
 
 
     }
+    public static void equals(){
+        /*
+        *Definition:
+        *       Returns true if the two specified arrays of a specific dataType are equal to one another.
+        *       Two arrays are considered equal if both arrays contain the same number of elements,
+        *       and all corresponding pairs of elements in the two arrays are equal.
+        *       In other words, two arrays are equal if they contain the same elements in the same order.
+        *       Also, two array references are considered equal if both are null.
+        *Syntax:
+        *       equals(int[] a, int[] a2)
+        * Parameters:
+        *       a - one array to be tested for equality
+        *       a2 - the other array to be tested for equality
+        * */
+        System.out.println("************  Comparing two Integer Arrays with Arrays.equals() method ************");
+
+        int[] numb_1 = {1,2,3,900};
+        int[] numb_2 = {1,2,3,900};
+        int[] numb_3 = {5,2,3,900};
+        int[] numb_4 = {1,2,3};
+
+        System.out.println(Arrays.equals(numb_1,numb_2)); // true
+        System.out.println(Arrays.equals(numb_1,numb_3)); // false
+        System.out.println(Arrays.equals(numb_1,numb_4)); // false
+
+        System.out.println("************  Comparing two String Arrays with Arrays.equals() method ************");
+
+        String[] names_1 = {"Ahmed", "David", "Mary"};
+        String[] names_2 = {"Ahmed", "David", "Mary"};
+        String[] names_3 = {"ahmed", "david", "mary"};
+
+        System.out.println(Arrays.equals(names_1,names_2)); // true
+        System.out.println(Arrays.equals(names_1,names_3)); // false (case-sensitive apply too)
+    }
+    public static void fill(){
+        /*
+        * Definition:
+        *           Assigns the specified datatype value to each element of the specified array of the same data type
+        *           instead of defaults values.
+        * Syntax:
+        *           Arrays.fill(int[] a, int val) // (e.g: array of integers ).
+        * Parameters:
+        *           a - the array to be filled
+        *           val - the value to be stored in all elements of the array
+        * */
+        int[] numbers = new int[5];
+        // before fill() methode, all values will be equals to zeros, if you remember the default value of an int is 0.
+        System.out.println("************* before Arrays.fill() method **************");
+        System.out.print("[");
+        for (int i:numbers
+             ) {
+            System.out.print(i+", ");
+
+        }
+        System.out.print("]");
+        System.out.println();
+        System.out.println("************* after Arrays.fill() method **************");
+        Arrays.fill(numbers, 5);
+        System.out.print("[");
+        for (int i:numbers
+        ) {
+            System.out.print(i+", ");
+
+        }
+        System.out.print("]");
+        System.out.println();
+
+
+
+
+
+    }
+
+    public static void ArrayHashCode() {
+        /*Definition:
+        *       Returns a hash code based on the contents of the specified array.
+        *       For any two non-null int arrays a and b such that Arrays.equals(a, b),
+        *       it is also the case that Arrays.hashCode(a) == Arrays.hashCode(b).
+        * Syntax:
+        *       Arrays.hashCode(int[] a)
+        * Parameters:
+        *       a - the array whose hash value to compute
+        * */
+        System.out.println("************   Arrays.hashCode() method ************");
+
+
+        int[] numbers_1 = {1,2};
+        int[] numbers_2 = {1,2};
+        int[] numbers_3 = {1,3};
+        System.out.println(Arrays.hashCode(numbers_1));
+        System.out.println(Arrays.hashCode(numbers_2));
+        System.out.println(Arrays.hashCode(numbers_3));
+        //So if we say Arrays.equals(numbers_1, numbers_2)
+        // is like saying Arrays.hashCode(numbers_1) == Arrays.hashCode(numbers_2)
+
+    }
+
 
 
 

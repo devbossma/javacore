@@ -29,9 +29,9 @@ public class Main {
         //ArrayManipulation.arraySort4();
 
         //ArrayManipulation.binarySearch();
-        ArrayManipulation.equals();
-        ArrayManipulation.fill();
-        ArrayManipulation.ArrayHashCode();
+        //ArrayManipulation.equals();
+        //ArrayManipulation.fill();
+        //ArrayManipulation.ArrayHashCode();
 
 
 

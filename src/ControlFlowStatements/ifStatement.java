@@ -19,7 +19,7 @@ public class ifStatement {
             System.out.println("Welcome adult!");
         }
     }
-    public static void ifTthenElse(){
+    public static void ifThenElse(){
         // Syntax:
         // if(some-condition == true) then {
         // do something

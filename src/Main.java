@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import ControlFlowStatements.ifStatement;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,9 +29,12 @@ public class Main {
         //ArrayManipulation.arraySort4();
 
         //ArrayManipulation.binarySearch();
-        ArrayManipulation.equals();
-        ArrayManipulation.fill();
-        ArrayManipulation.ArrayHashCode();
+        //ArrayManipulation.equals();
+        //ArrayManipulation.fill();
+        //ArrayManipulation.ArrayHashCode();
+
+        ifStatement.ifStatement();
+        ifStatement.ifTthenElse();
 
 
 

@@ -28,10 +28,10 @@ public class Main {
         //ArrayManipulation.arraySort3();
         //ArrayManipulation.arraySort4();
 
-        //ArrayManipulation.binarySearch();
-        //ArrayManipulation.equals();
-        //ArrayManipulation.fill();
-        //ArrayManipulation.ArrayHashCode();
+        ArrayManipulation.binarySearch();
+        ArrayManipulation.equals();
+        ArrayManipulation.fill();
+        ArrayManipulation.ArrayHashCode();
 
         ifStatement.ifStatement();
         ifStatement.ifTthenElse();

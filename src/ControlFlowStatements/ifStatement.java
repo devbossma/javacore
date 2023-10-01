@@ -19,14 +19,14 @@ public class ifStatement {
             System.out.println("Welcome adult!");
         }
     }
-    public static void ifTthenElse(){
+    public static void ifThenElse(){
         // Syntax:
         // if(some-condition == true) then {
         // do something
         // }else{
         //  do something else if the condition is false
         // }
-        System.out.println("************** if then else stetement ****************");
+        System.out.println("************** if then else statement ****************");
             // Implimentation:
 
             int min_age = 18;
@@ -38,4 +38,28 @@ public class ifStatement {
             }
 
     }
+    public static void ifThenElseif() {
+        // Syntax:
+        // if(first condition == true) then {
+        //      do something if the first condition is true
+        // }elseif(second condition == true) then {
+        //  do something  if the second condition is true
+        // }else then {
+        //      do something if the first and second conditions are both false
+        // }
+        System.out.println("************** if then else-if statements ****************");
+        // Implementation:
+
+        int min_age = 18;
+        int max_age = 50;
+        int age_given_by_an_user = 17;
+        if(age_given_by_an_user < min_age){
+            System.out.println("\"Sorry! you're not adult enough to play this Game\"");
+        }else if (age_given_by_an_user >= min_age && age_given_by_an_user <= max_age){
+            System.out.println("Welcome to your new gaming experience");
+        }else {
+            System.out.println(" Are you sur you wanna play this game?");
+        }
+    }
+
 }

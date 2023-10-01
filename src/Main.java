@@ -1,4 +1,5 @@
 import ControlFlowStatements.ifStatement;
+import ControlFlowStatements.whileLoop;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,13 +29,15 @@ public class Main {
         //ArrayManipulation.arraySort3();
         //ArrayManipulation.arraySort4();
 
-        ArrayManipulation.binarySearch();
+        /*ArrayManipulation.binarySearch();
         ArrayManipulation.equals();
         ArrayManipulation.fill();
-        ArrayManipulation.ArrayHashCode();
+        ArrayManipulation.ArrayHashCode();*/
 
         ifStatement.ifStatement();
-        ifStatement.ifTthenElse();
+        ifStatement.ifThenElse();
+        ifStatement.ifThenElseif();
+        whileLoop.whileStatement();
 
 
 

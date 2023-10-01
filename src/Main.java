@@ -34,10 +34,10 @@ public class Main {
         ArrayManipulation.fill();
         ArrayManipulation.ArrayHashCode();*/
 
-        ifStatement.ifStatement();
-        ifStatement.ifThenElse();
-        ifStatement.ifThenElseif();
-        whileLoop.whileStatement();
+        //ifStatement.ifStatement();
+        //ifStatement.ifThenElse();
+        //ifStatement.ifThenElseif();
+        //whileLoop.whileStatement();
 
 
 

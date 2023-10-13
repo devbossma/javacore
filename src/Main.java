@@ -34,7 +34,7 @@ public class Main {
         //ifStatement.ifStatement();
         //ifStatement.ifThenElse();
         //ifStatement.ifThenElseif();
-        //whileLoop.whileStatement();
+        whileLoop.whileStatement();
 
 
 

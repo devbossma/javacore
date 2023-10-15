@@ -1,5 +1,6 @@
 import ControlFlowStatements.ifStatement;
 import ControlFlowStatements.whileLoop;
+import datastructure.StackDataStructure;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,11 +35,12 @@ public class Main {
         ArrayManipulation.fill();
         ArrayManipulation.ArrayHashCode();*/
 
-        ifStatement.ifStatement();
-        ifStatement.ifThenElse();
-        ifStatement.ifThenElseif();
-        whileLoop.whileStatement();
+        //ifStatement.ifStatement();
+        //ifStatement.ifThenElse();
+        //ifStatement.ifThenElseif();
+        //whileLoop.whileStatement();
 
+        StackDataStructure.stackImplementation();
 
 
 

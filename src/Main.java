@@ -37,7 +37,7 @@ public class Main {
         //ifStatement.ifThenElseif();
         //whileLoop.whileStatement();
 
-        StackDataStructure.stackImplementation();
+        //StackDataStructure.stackImplementation();
 
 
 

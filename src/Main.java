@@ -1,4 +1,4 @@
-I'mbyyoimport ControlFlowStatements.ifStatement;
+هههI'mbyyoimport ControlFlowStatements.ifStatement;
 import ControlFlowStatements.whileLoop;
 import datastructure.StackDataStructure;
 
@@ -37,7 +37,7 @@ public class Main {
         //ifStatement.ifThenElseif();
         //whileLoop.whileStatement();
 
-        StackDataStructure.stackImplementation();
+        //StackDataStructure.stackImplementation();
 
 
 
